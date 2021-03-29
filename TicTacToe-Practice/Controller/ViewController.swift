@@ -22,8 +22,10 @@ class ViewController: UIViewController {
     var images: [[UIImageView]]? = nil
 
     //TODO: Create a model instance variable
+    
+    //TODO (in the View): Make sure all of the board images are blank.png
 
-    //TODO: Create a new label for "status text" Ex: Whose turn it is, whether someone won, and whether there was an invalid move
+    //TODO (in the View, and link here in the Controller): Create a new label for "status text" Ex: Whose turn it is, whether someone won, and whether there was an invalid move
     
     @IBAction func buttonClicked(_ sender: UIButton) {
         //Step 1 - Get the row number and column number from the button text (See hint in assignment instructions)
@@ -35,6 +37,7 @@ class ViewController: UIViewController {
         
            //Step 4 - Check for a winner, updating the status message and creating a countdown timer to reset the game if necessary
            // Check the EggTimer assignment on Udemy for hints on creating the countdown timer
+           // Make sure you reset the images to blank.png
         
            //Step 5 - If no one won, make the *model* go to the next turn, get the current turn from the model and update the status message.
         
