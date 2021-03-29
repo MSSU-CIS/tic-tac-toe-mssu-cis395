@@ -16,11 +16,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tic-tac-toe.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KDy-pt-Gln">
-                                <rect key="frame" x="26" y="165" width="373" height="394"/>
+                                <rect key="frame" x="8" y="163" width="400" height="400"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3EC-cb-H93">
-                                <rect key="frame" x="36" y="179" width="110" height="110"/>
+                                <rect key="frame" x="25" y="180" width="110" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
                                 <state key="normal" title="0 0"/>
@@ -29,11 +29,11 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blank.png" translatesAutoresizingMaskIntoConstraints="NO" id="uNP-7a-Vgj">
-                                <rect key="frame" x="25" y="178" width="120" height="120"/>
+                                <rect key="frame" x="18" y="170" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MkS-CO-qmn">
-                                <rect key="frame" x="154" y="180" width="109" height="109"/>
+                                <rect key="frame" x="153" y="180" width="110" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="0 1"/>
                                 <connections>
@@ -41,11 +41,11 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blank.png" translatesAutoresizingMaskIntoConstraints="NO" id="ASf-MF-kqt">
-                                <rect key="frame" x="152" y="178" width="120" height="120"/>
+                                <rect key="frame" x="148" y="170" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6MX-2I-sD4">
-                                <rect key="frame" x="280" y="183" width="119" height="103"/>
+                                <rect key="frame" x="280" y="180" width="110" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="0 2"/>
                                 <connections>
@@ -53,11 +53,11 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blank.png" translatesAutoresizingMaskIntoConstraints="NO" id="EOY-CQ-vBE">
-                                <rect key="frame" x="277" y="178" width="120" height="120"/>
+                                <rect key="frame" x="280" y="170" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Crg-OC-e7o">
-                                <rect key="frame" x="36" y="309" width="107" height="107"/>
+                                <rect key="frame" x="25" y="309" width="110" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="1 0"/>
                                 <connections>
@@ -65,11 +65,11 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blank.png" translatesAutoresizingMaskIntoConstraints="NO" id="rdV-9s-eiz">
-                                <rect key="frame" x="27" y="303" width="120" height="120"/>
+                                <rect key="frame" x="18" y="303" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WJb-2l-j7P">
-                                <rect key="frame" x="159" y="309" width="106" height="106"/>
+                                <rect key="frame" x="153" y="309" width="110" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="1 1"/>
                                 <connections>
@@ -77,11 +77,11 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blank.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ui7-f4-GtI">
-                                <rect key="frame" x="154" y="303" width="120" height="120"/>
+                                <rect key="frame" x="148" y="303" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ku-h6-W4O">
-                                <rect key="frame" x="285" y="309" width="108" height="108"/>
+                                <rect key="frame" x="285" y="309" width="110" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="1 2"/>
                                 <connections>
@@ -89,11 +89,11 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blank.png" translatesAutoresizingMaskIntoConstraints="NO" id="0U5-Ny-AzC">
-                                <rect key="frame" x="279" y="303" width="120" height="120"/>
+                                <rect key="frame" x="280" y="303" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPa-lL-Uze">
-                                <rect key="frame" x="27" y="424" width="116" height="116"/>
+                                <rect key="frame" x="25" y="435" width="110" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="2 0"/>
                                 <connections>
@@ -101,11 +101,11 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blank.png" translatesAutoresizingMaskIntoConstraints="NO" id="hjc-UE-KHc">
-                                <rect key="frame" x="28" y="426" width="120" height="120"/>
+                                <rect key="frame" x="18" y="435" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWx-3A-aHS">
-                                <rect key="frame" x="157" y="426" width="111" height="111"/>
+                                <rect key="frame" x="153" y="435" width="110" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="2 1"/>
                                 <connections>
@@ -113,11 +113,11 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blank.png" translatesAutoresizingMaskIntoConstraints="NO" id="no7-MY-5nl">
-                                <rect key="frame" x="155" y="426" width="120" height="120"/>
+                                <rect key="frame" x="148" y="435" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ji-Z5-9kR">
-                                <rect key="frame" x="285" y="427" width="108" height="108"/>
+                                <rect key="frame" x="285" y="435" width="110" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="2 2"/>
                                 <connections>
@@ -125,7 +125,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blank.png" translatesAutoresizingMaskIntoConstraints="NO" id="jkm-Pd-F0k">
-                                <rect key="frame" x="280" y="426" width="120" height="120"/>
+                                <rect key="frame" x="280" y="435" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -133,15 +133,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="bottomLeftImage" destination="hjc-UE-KHc" id="oJ2-gN-aqe"/>
-                        <outlet property="bottomMiddleImage" destination="no7-MY-5nl" id="ztZ-eM-3Wc"/>
-                        <outlet property="bottomRightImage" destination="jkm-Pd-F0k" id="ceY-68-bhe"/>
-                        <outlet property="centerLeftImage" destination="rdV-9s-eiz" id="fpq-rp-5ab"/>
-                        <outlet property="centerMiddleImage" destination="Ui7-f4-GtI" id="KQn-mt-4tK"/>
-                        <outlet property="centerRightImage" destination="0U5-Ny-AzC" id="xLl-Rl-4a7"/>
-                        <outlet property="upperLeftImage" destination="uNP-7a-Vgj" id="W2T-9T-aHA"/>
-                        <outlet property="upperMiddleImage" destination="ASf-MF-kqt" id="Fme-gQ-Ztu"/>
-                        <outlet property="upperRightImage" destination="EOY-CQ-vBE" id="A72-lT-kP0"/>
+                        <outlet property="bottomLeft" destination="hjc-UE-KHc" id="oJ2-gN-aqe"/>
+                        <outlet property="bottomMiddle" destination="no7-MY-5nl" id="ztZ-eM-3Wc"/>
+                        <outlet property="bottomRight" destination="jkm-Pd-F0k" id="ceY-68-bhe"/>
+                        <outlet property="centerLeft" destination="rdV-9s-eiz" id="fpq-rp-5ab"/>
+                        <outlet property="centerMiddle" destination="Ui7-f4-GtI" id="KQn-mt-4tK"/>
+                        <outlet property="centerRight" destination="0U5-Ny-AzC" id="xLl-Rl-4a7"/>
+                        <outlet property="upperLeft" destination="uNP-7a-Vgj" id="W2T-9T-aHA"/>
+                        <outlet property="upperMiddle" destination="ASf-MF-kqt" id="Fme-gQ-Ztu"/>
+                        <outlet property="upperRight" destination="EOY-CQ-vBE" id="A72-lT-kP0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

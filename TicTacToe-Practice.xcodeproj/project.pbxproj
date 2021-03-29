@@ -13,10 +13,8 @@
 		FF15C6622401C7DF00D4B1E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF15C6602401C7DF00D4B1E8 /* Main.storyboard */; };
 		FF15C6642401C7E300D4B1E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF15C6632401C7E300D4B1E8 /* Assets.xcassets */; };
 		FF15C6672401C7E300D4B1E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF15C6652401C7E300D4B1E8 /* LaunchScreen.storyboard */; };
-		FF15C6952401CF5B00D4B1E8 /* circle-icon-16059.png in Resources */ = {isa = PBXBuildFile; fileRef = FF15C6922401CF5A00D4B1E8 /* circle-icon-16059.png */; };
-		FF15C6962401CF5B00D4B1E8 /* X.png in Resources */ = {isa = PBXBuildFile; fileRef = FF15C6932401CF5B00D4B1E8 /* X.png */; };
-		FF15C6972401CF5B00D4B1E8 /* tic-tac-toe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF15C6942401CF5B00D4B1E8 /* tic-tac-toe.jpg */; };
-		FF15C6992401D18D00D4B1E8 /* blank.png in Resources */ = {isa = PBXBuildFile; fileRef = FF15C6982401D18D00D4B1E8 /* blank.png */; };
+		FF6EE4502612778600A99E44 /* images in Resources */ = {isa = PBXBuildFile; fileRef = FF6EE44F2612778500A99E44 /* images */; };
+		FF6EE456261278D500A99E44 /* TicTacToeBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6EE455261278D500A99E44 /* TicTacToeBoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,10 +45,8 @@
 		FF15C6682401C7E300D4B1E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF15C66D2401C7E400D4B1E8 /* TicTacToe-PracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TicTacToe-PracticeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF15C6782401C7E400D4B1E8 /* TicTacToe-PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TicTacToe-PracticeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF15C6922401CF5A00D4B1E8 /* circle-icon-16059.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "circle-icon-16059.png"; path = "images/circle-icon-16059.png"; sourceTree = "<group>"; };
-		FF15C6932401CF5B00D4B1E8 /* X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = X.png; path = images/X.png; sourceTree = "<group>"; };
-		FF15C6942401CF5B00D4B1E8 /* tic-tac-toe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tic-tac-toe.jpg"; path = "images/tic-tac-toe.jpg"; sourceTree = "<group>"; };
-		FF15C6982401D18D00D4B1E8 /* blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blank.png; path = images/blank.png; sourceTree = "<group>"; };
+		FF6EE44F2612778500A99E44 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		FF6EE455261278D500A99E44 /* TicTacToeBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,19 +95,41 @@
 		FF15C6592401C7DF00D4B1E8 /* TicTacToe-Practice */ = {
 			isa = PBXGroup;
 			children = (
-				FF15C6922401CF5A00D4B1E8 /* circle-icon-16059.png */,
-				FF15C6942401CF5B00D4B1E8 /* tic-tac-toe.jpg */,
-				FF15C6932401CF5B00D4B1E8 /* X.png */,
-				FF15C6982401D18D00D4B1E8 /* blank.png */,
+				FF6EE44F2612778500A99E44 /* images */,
+				FF6EE454261277E200A99E44 /* Model */,
+				FF6EE452261277A900A99E44 /* View */,
+				FF6EE453261277B000A99E44 /* Controller */,
 				FF15C65A2401C7DF00D4B1E8 /* AppDelegate.swift */,
 				FF15C65C2401C7DF00D4B1E8 /* SceneDelegate.swift */,
-				FF15C65E2401C7DF00D4B1E8 /* ViewController.swift */,
-				FF15C6602401C7DF00D4B1E8 /* Main.storyboard */,
 				FF15C6632401C7E300D4B1E8 /* Assets.xcassets */,
-				FF15C6652401C7E300D4B1E8 /* LaunchScreen.storyboard */,
 				FF15C6682401C7E300D4B1E8 /* Info.plist */,
 			);
 			path = "TicTacToe-Practice";
+			sourceTree = "<group>";
+		};
+		FF6EE452261277A900A99E44 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF15C6602401C7DF00D4B1E8 /* Main.storyboard */,
+				FF15C6652401C7E300D4B1E8 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF6EE453261277B000A99E44 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF15C65E2401C7DF00D4B1E8 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF6EE454261277E200A99E44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF6EE455261278D500A99E44 /* TicTacToeBoard.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,11 +237,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF15C6672401C7E300D4B1E8 /* LaunchScreen.storyboard in Resources */,
-				FF15C6962401CF5B00D4B1E8 /* X.png in Resources */,
-				FF15C6972401CF5B00D4B1E8 /* tic-tac-toe.jpg in Resources */,
 				FF15C6642401C7E300D4B1E8 /* Assets.xcassets in Resources */,
-				FF15C6952401CF5B00D4B1E8 /* circle-icon-16059.png in Resources */,
-				FF15C6992401D18D00D4B1E8 /* blank.png in Resources */,
+				FF6EE4502612778600A99E44 /* images in Resources */,
 				FF15C6622401C7DF00D4B1E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +267,7 @@
 				FF15C65F2401C7DF00D4B1E8 /* ViewController.swift in Sources */,
 				FF15C65B2401C7DF00D4B1E8 /* AppDelegate.swift in Sources */,
 				FF15C65D2401C7DF00D4B1E8 /* SceneDelegate.swift in Sources */,
+				FF6EE456261278D500A99E44 /* TicTacToeBoard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +307,8 @@
 				FF15C6612401C7DF00D4B1E8 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
+			path = "TicTacToe-Practice/View";
+			sourceTree = SOURCE_ROOT;
 		};
 		FF15C6652401C7E300D4B1E8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
