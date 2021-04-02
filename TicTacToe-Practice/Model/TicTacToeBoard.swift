@@ -87,22 +87,22 @@ class TicTacToeBoard {
   func didWin() -> String {
     // Row wins
     for row in 0...2 {
-       if (board[row][0] == board[row][1] && board[row][1] == board[row][2]) {
+       if (board[row][0] == board[row][1] && board[row][1] == board[row][2] && board[row][0] != " ") {
          return board[row][0]
         }
     }
     // Column wins
     for col in 0...2 {
-       if (board[0][col] == board[1][col] && board[1][col] == board[2][col]) {
+       if (board[0][col] == board[1][col] && board[1][col] == board[2][col] && board[0][col] != " ") {
          return board[0][col]
        }
     }
     // Diagonal wins
-    if (board[0][0] == board[1][1] && board[1][1] == board[2][2]) {
+    if (board[0][0] == board[1][1] && board[1][1] == board[2][2] && board[0][0] != " ") {
       return board[0][0]
     }
-    if (board[0][2] == board[1][1] && board[1][1] == board[2][0]) {
-      return board[0][0]
+    if (board[0][2] == board[1][1] && board[1][1] == board[2][0] && board[0][2] != " ") {
+      return board[0][2]
     }
 
     if (isFull()) {
